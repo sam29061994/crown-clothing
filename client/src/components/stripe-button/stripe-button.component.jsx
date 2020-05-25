@@ -1,5 +1,6 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import axios from 'axios';
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
@@ -8,7 +9,18 @@ const StripeCheckoutButton = ({ price }) => {
     const priceForStripe = price * 100;
     const publishableKey = 'pk_test_ChfIJQuwdfTZERKVgKY3SD7j00eZodoeyW';
     const onToken = (token) => {
-        console.log(token);
+        axios
+            .post('/payment', {
+                amount: priceForStripe,
+                token,
+            })
+            .then((res) => {
+                alert('Payment was successful');
+            })
+            .catch((err) => {
+                console.log(err);
+                alert('There was an issue with your payment.');
+            });
     };
 
     return (
