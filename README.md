@@ -1,17 +1,34 @@
 # CROWN CLOTHING E-Commerece Website
-CROWN CLOTHING is a massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full MERN stack app.
+CROWN CLOTHING is a massive e-commerce application similar to Shopify this is a full MERN stack app.
 
 ## Teachnologies used in this React APP
 
-React Api - React Hooks, Effects, Context API, React Suspense, React Lazy, PWAs, Service Workers, State Normalization
-Routing - React Router
-State Management - Redux, Redux persist, Redux saga, Redux thunk, Reselect, Redux logger, React Hooks, GraphQL +Apollo
-Styling - Sass, Styled Components
-Payment - react -stripe, stripe js
-Authentication/ Database - Firebase, Firestore
-Async Requests - Axios
-Backend - dotenv, cors, lodash, express, compression,body parser
-Testing - Jest, Enzyme and Snapshot testing
+## React Api 
+React Hooks, Effects, Context API, React Suspense, React Lazy, PWAs, Service Workers, State Normalization
+
+## Routing 
+React Router
+
+## State Management 
+Redux, Redux persist, Redux saga, Redux thunk, Reselect, Redux logger, React Hooks, GraphQL +Apollo
+
+## Styling 
+Sass, Styled Components
+
+## Online Payment 
+react -stripe, stripe js
+
+## Authentication/ Database 
+Firebase, Firestore, Google Auth provider
+
+## Async Requests 
+Axios
+
+## Backend 
+dotenv, cors, lodash, express, compression,body parser
+
+## Testing 
+Jest, Enzyme and Snapshot testing
 
 
 ## URL
