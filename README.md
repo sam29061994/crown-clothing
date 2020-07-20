@@ -4,13 +4,13 @@ CROWN CLOTHING is a massive e-commerce application similar to Shopify this is a 
 ## Teachnologies used in this React APP
 
 ## React Api 
-React Hooks, Effects, Context API, React Suspense, React Lazy, PWAs, Service Workers, State Normalization
+React Hooks, Effects, Context API, React Suspense, React Lazy, PWAs, Service Workers, State Normalization, HOC pattern
 
 ## Routing 
 React Router
 
 ## State Management 
-Redux, Redux persist, Redux saga, Redux thunk, Reselect, Redux logger, React Hooks, GraphQL +Apollo
+Redux, Redux persist, Redux saga, Redux thunk, Compose, Reselect, Redux logger, React Hooks, GraphQL +Apollo
 
 ## Styling 
 Sass, Styled Components
