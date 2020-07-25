@@ -1,4 +1,37 @@
+# CROWN CLOTHING E-Commerece Website
+CROWN CLOTHING is a massive e-commerce application similar to Shopify this is a full MERN stack app.
 
+## Teachnologies used in this React APP
+
+## React Api 
+React Hooks, Effects, React Suspense, React Lazy, PWAs, Service Workers, State Normalization, HOC pattern
+
+## Routing 
+React Router
+
+## State Management 
+Redux, Redux persist, Redux saga, Redux thunk, Compose, Reselect, Redux logger, React Hooks
+
+## Styling 
+Sass, Styled Components
+
+## Online Payment 
+react -stripe, stripe js
+
+## Authentication/ Database 
+Firebase, Firestore, Google Auth provider
+
+## Async Requests 
+Axios
+
+## Backend 
+dotenv, cors, lodash, express, compression,body parser
+
+## Testing 
+Jest, Enzyme and Snapshot testing
+
+
+## URL
 https://crwn-sam-clothing.herokuapp.com/
 
 ## Available Scripts
