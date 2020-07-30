@@ -27,10 +27,6 @@ Axios
 ## Backend 
 dotenv, cors, lodash, express, compression,body parser
 
-## Testing 
-Jest, Enzyme and Snapshot testing
-
-
 ## URL
 https://crwn-sam-clothing.herokuapp.com/
 
