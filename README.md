@@ -24,6 +24,9 @@ Firebase, Firestore, Google Auth provider
 ## Async Requests 
 Axios
 
+## Testing 	
+Jest, Enzyme and Snapshot testing	
+
 ## Backend 
 dotenv, cors, lodash, express, compression,body parser
 
