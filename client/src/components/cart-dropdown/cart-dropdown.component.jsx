@@ -8,7 +8,7 @@ import CustomButton from '../custom-button/custom-button.component';
 import CartItem from '../cart-item/cart-item.component';
 import '../cart-dropdown/cart-dropdown.styles.scss';
 
-const CartDropDown = ({ cartItems, history, dispatch }) => (
+export const CartDropDown = ({ cartItems, history, dispatch }) => (
     <div className="cart-dropdown">
         <div className="cart-items">
             {cartItems.length ? (

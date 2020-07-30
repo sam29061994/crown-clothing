@@ -11,6 +11,7 @@ import { GlobalStyle } from './global.styles';
 import { checkUserSession } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
 import { selectCollectionsForPreview } from './redux/shop/shop.selector';
+import { addCollectionAndDocuments } from './firebase/firebase.utils';
 
 const HomePage = lazy(() => import('./pages/homepage/homepage.component'));
 const ShopPage = lazy(() => import('./pages/shop/shop.component'));
@@ -19,9 +20,10 @@ const SignInSignUpPage = lazy(() =>
 );
 const CheckoutPage = lazy(() => import('./pages/checkout/checkout.component'));
 
-const App = ({ checkUserSession, currentUser }) => {
+const App = ({ checkUserSession, currentUser, collectionsArray }) => {
     useEffect(() => {
         checkUserSession();
+        // addCollectionAndDocuments('collections', collectionsArray);
     }, [checkUserSession]);
 
     return (
