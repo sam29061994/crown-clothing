@@ -27,9 +27,6 @@ Axios
 ## Testing 	
 Jest, Enzyme and Snapshot testing	
 
-## Backend 
-dotenv, cors, lodash, express, compression,body parser
-
 ## URL
 https://crwn-sam-clothing.herokuapp.com/
 
