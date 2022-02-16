@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
 const compression = require('compression');
-const enforce = require('express-sslify')
+const enforce = require('express-sslify');
 
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
@@ -31,8 +31,8 @@ app.listen(port, (error) => {
 });
 
 app.get('/service-worker.js', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '..','build','service-worker.js'))
-})
+    res.sendFile(path.resolve(__dirname, '..', 'build', 'service-worker.js'));
+});
 
 app.post('/payment', (req, res) => {
     stripe.charges.create(
